@@ -1,0 +1,17 @@
+LOGGER_LOG = 'log'
+
+LOGS_FOLDER_PATH = 'logs/'
+
+LOGGER_MAIN = 'main'
+LOGGER_DB = 'db'
+LOGGER_ES = 'es'
+LOGGER_BACKUP_COUNT = 'backupcount'
+
+config = {
+    LOGGER_LOG: LOGS_FOLDER_PATH + 'log',
+    LOGGER_MAIN: LOGS_FOLDER_PATH + 'main',
+    LOGGER_DB: LOGS_FOLDER_PATH + 'db',
+    LOGGER_ES: LOGS_FOLDER_PATH + 'es',
+
+    LOGGER_BACKUP_COUNT: 1
+}
